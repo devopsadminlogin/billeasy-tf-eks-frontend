@@ -1,0 +1,8 @@
+image:
+  imagetag: 1.0.0
+
+imagePullSecrets: dockerregistry
+
+service:
+  port: 80
+
