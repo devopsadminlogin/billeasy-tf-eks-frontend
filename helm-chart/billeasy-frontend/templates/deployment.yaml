@@ -19,7 +19,7 @@ spec:
           name: {{ .Release.Name }}
           env:
             - name: REACT_APP_BACKEND_URL
-              value: "http:abcacfb2932944bf4a6f122ed8b8df19-144775867.us-east-1.elb.amazonaws.com:31225/api/tasks"
+              value: "http:abcacfb2932944bf4a6f122ed8b8df19-144775867.us-east-1.elb.amazonaws.com:3500/api/tasks"
           ports:
             - containerPort: {{ .Values.service.port }}
               name: tcp
